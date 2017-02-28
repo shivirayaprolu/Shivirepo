@@ -1,0 +1,75 @@
+<html>
+<head><p>This is a heading</p>
+<LINK REL="stylesheet"; type="text/css"; href="styles1.css">
+  <SCRIPT src="jquery-3.1.1.js"></SCRIPT>
+  <script>
+  $(document).ready(function()
+  {
+    $("#click").click(function(){
+      $("#click").css("background-color", "green");
+  <!--   $("p").hide();   -->
+  <!--      $("p").toggle();  -->
+          if ( $( "p" ).is( ":hidden")){$( "p" ).slideDown( "slow" );}
+          else{$( "p" ).slideUp("slow");}
+    })
+    $("#second").click(function(){
+      $("#second").css("background-color", "yellow");
+    <!--   $("p").show();  -->
+      $("#left").slideToggle("slow");
+      $("#right").fadeOut("slow");
+      $("#wrapper").after($("h1"));
+    })
+    $("#reset").click(function(){
+    <!--   $("p").show();  -->
+      $("#right").fadeIn("slow");
+      $("#wrapper").before($("h1"));
+      $("h1").html();
+    })
+    $("#left").before("<h1>This is a insert by before function</h1>");
+    $("h7").append($("p"))
+
+    var htmlstring=$("#main").html();
+    $("#main").text(htmlstring);
+
+    var collor=$("#secondary").attr("contextmenu");
+    $("#secondary").text(collor);
+
+    var values=$("#combobox").val();
+      $("#secondary").text(values);
+  })
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>This is a test for an append function</h1>
+  <button id="click">Click me to change my color to green button</button>
+  <button id="second">This is second button</button>
+  <button id="reset">Click to reset</button>
+</div>
+<div id="left">
+  <H2>Left Content Area</H2>
+  <h7>This is a Left area content where we can add what ever we need</h7>
+</div>
+<div id="center">
+  <H2>Center Content Area</H2>
+  <P>This is a Center area content where we can add what ever we need</P>
+</div>
+<div id="right">
+  <H2>Right Content Area</H2>
+  <P>This is a Right area content where we can add what ever we need</P>
+</div>
+<div id="main">
+  <h5> This is a JQuery Practise area</h5>
+  <p>Test paragraph to test append function</p>
+</div>
+<div id="secondary" contextmenu="rich">
+</div>
+<div id="third">
+  <select id="combobox">
+  <option>True</option>
+  <option>False</option>
+</select>
+</div>
+</body>
+</html>

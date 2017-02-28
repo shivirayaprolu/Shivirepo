@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#restore{
+  height:70px;
+  width: 200px;
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
+#wrapper{
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  margin: 15px auto;
+  padding: 15px;
+  display: inline-block;
+}
+#ninja1{
+  display: inline-block;
+}
+#ninja2{
+  display: inline-block;
+}
+#ninja3{
+  display: inline-block;
+}
+#ninja4{
+  display: inline-block;
+}
+#ninja5{
+  display: inline-block;
+}
+#ninja6{
+  display: inline-block;
+}
+#ninja7{
+  display: inline-block;
+}
+#ninja8{
+  display: inline-block;
+}

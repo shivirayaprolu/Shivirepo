@@ -1,0 +1,140 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#wrapper{
+  width: 950px;
+  background-color: black;
+  margin: 0px auto;
+  padding: 5px;
+}
+#header{
+  height: 100px;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+    .headerimage{
+      display:inline-block;
+    }
+    h4{
+      font-size: large;
+      padding-top: 150px;
+      padding-left: 700px;
+      color: white;
+      display: inline-block;
+    }
+
+#menu{
+  height: 50px;
+  background-color: grey;
+  margin: 10px;
+  padding-bottom: 15px;
+  font-size: x-large;
+  font-style: normal;
+  color: white;
+}
+    ul{
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+    }
+    li{
+      display: inline;
+      padding: 10px;
+      padding-top: 20px;
+      margin: 10px;
+      text-align: center;
+    }
+#image{
+  height: 200px;
+  background-color: yellow;
+  margin: 10px;
+  display: inline;
+}
+#links{
+  height: 100px;
+  background-color: grey;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+  .innerlink{
+    padding-left: 25px;
+    padding-top: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    vertical-align: top;
+  }
+
+  h3{
+    color: orange;
+    display: inline;
+  }
+  p{
+    color: white;
+    display: inline;
+  }
+
+#buynow{
+  height: 100px;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+  h2{
+    padding-top: 30px;
+    padding-left: 20px;
+    color: white;
+    display: inline;
+  }
+  button{
+    background-color: orange;
+    color: white;
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+  }
+#portfolio{
+  height: 50px;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+h5{
+  font-size: large;
+  padding-top: 150px;
+  padding-left: 600px;
+  color: orange;
+  display: inline;
+}
+
+#portfolioimages{
+  height: 150px;
+  margin: 10px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+}
+#portfoliotext{
+  height: 100px;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+h6{
+  font-size: large;
+  padding-top: 150px;
+  padding-right: 70px;
+  color: orange;
+  display: inline;
+}
+
+#backtotop{
+  height: 20px;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+h7{
+  font-size: medium;
+  padding-top: 150px;
+  padding-left: 850px;
+  color: white;
+  display: inline;
+}

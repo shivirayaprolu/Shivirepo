@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<HTML>
+  <HEAD>
+    <LINK REL="stylesheet"; type="text/css"; href="styles1.css">
+  </HEAD>
+  <BODY>
+      <DIV id="left">
+        <H2>Left Content Area</H2>
+        <P>This is a Left area content where we can add what ever we need</P>
+      </DIV>
+      <DIV id="center">
+        <H2>Center Content Area</H2>
+        <P>This is a Center area content where we can add what ever we need</P>
+      </DIV>
+      <DIV id="right">
+        <H2>Right Content Area</H2>
+        <P>This is a Right area content where we can add what ever we need</P>
+      </DIV>
+      <DIV id="test">
+        <button>Hit this button</button>
+      </DIV>
+      <SCRIPT src="jquery-3.1.1.js"></SCRIPT>
+      <SCRIPT>
+      $(document).ready(function()
+      {
+        $("button").click(function(){
+
+          $("#center").hide();
+
+        })
+      })
+      </SCRIPT>
+  </BODY>
+</HTML>
